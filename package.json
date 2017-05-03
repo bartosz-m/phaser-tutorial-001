@@ -1,0 +1,26 @@
+{
+  "name": "phaser-tutorial-001",
+  "version": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/webpack",
+    "serve": "node_modules/.bin/webpack-dev-server --open"
+  },
+  "description": "Phaser game engine tutoria written in TypeScript: Episode 001",
+  "author": "Bartosz Matuszewski",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartosz-m/phaser-tutorial-001.git"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.15",
+    "expose-loader": "^0.7.3",
+    "phaser-ce": "^2.7.7",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
