@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^7.0.15",
+    "copy-webpack-plugin": "^4.0.1",
     "expose-loader": "^0.7.3",
     "phaser-ce": "^2.7.7",
     "source-map-loader": "^0.2.1",
